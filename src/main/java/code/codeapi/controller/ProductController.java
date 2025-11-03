@@ -54,7 +54,7 @@ public class ProductController {
     }
 
     //상품목록 조회
-    @PreAuthorize("hasAnyRole('ROLE_ADMIN')")  //임시로 권한 설정
+//    @PreAuthorize("hasAnyRole('ROLE_ADMIN')")  //임시로 권한 설정
     @GetMapping("/list")
     public PageResponseDTO<ProductDTO> list(PageRequestDTO pageRequestDTO) {
         return productService.getList(pageRequestDTO);

@@ -38,7 +38,7 @@ class CartRepositoryTest {
     public void 장바구니만들기() {
         //사용자가 전송하는 정보
         String email = "user1@aaa.com";
-        Long pno = 43L;
+        Long pno = 1L;
         int qty = 1;
 
         //만일 기존에 사용자의 장바구니 아이템이 있다면
